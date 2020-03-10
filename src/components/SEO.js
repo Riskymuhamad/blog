@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from "gatsby"
 import urljoin from 'url-join'
 import config from '../../data/SiteConfig'
 
