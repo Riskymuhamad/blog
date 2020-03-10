@@ -1,5 +1,5 @@
 {
-  "name": "taniarascia.com",
+  "name": "riskymuhamad.xyz",
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "1.0.1",
   "author": "Tania Rascia <hello@taniarascia.com>",
@@ -56,12 +56,12 @@
     "write-good": "^1.0.1"
   },
   "keywords": [
-    "tania rascia",
-    "development",
-    "dev",
-    "tutorials",
-    "tech",
-    "articles",
+    "Risky muhamad",
+    "risky",
+    "artikel",
+    "tutorial",
+    "digital",
+    "Risky",
     "blog"
   ],
   "license": "MIT",

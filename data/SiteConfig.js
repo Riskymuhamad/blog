@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: 'Risky muhamad',
   siteTitleAlt: 'Risky muhamad',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://riskym.netlify.com/',
+  siteUrl: 'https://riskymuhamad.xyz/',
   repo: 'https://github.com/riskymuhamad/blog',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
