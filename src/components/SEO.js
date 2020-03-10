@@ -78,21 +78,16 @@ export default class SEO extends Component {
         <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
 
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
-        {postSEO && <meta property="og:type" content="article" />}
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={image} />
-        <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-<meta property="og:description"        content="How much does culture influence creative thinking?" />
-<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content={config.userTwitter} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        {postSEO}
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content={title} />
+        <meta property="og:description"        content={description} />
+        <meta property="og:image"              content={image} />
+        <meta name="twitter:card"              content="summary_large_image" />
+        <meta name="twitter:creator"           content={config.userTwitter} />
+        <meta name="twitter:title"             content={title} />
+        <meta name="twitter:description"       content={description} />
+        <meta name="twitter:image"             content={image} />
       </Helmet>
     )
   }
