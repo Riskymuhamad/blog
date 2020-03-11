@@ -784,16 +784,15 @@ blockquote {
   margin: 1.5rem 0;
 
   .note-container {
-    background: radial-gradient(circle at 20% 20%, #5183f5 25%, #4640ff 100%);
-    box-shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
-    color: rgba(255, 255, 255, 0.9);
+    background: white;
     border-radius: $border-radius;
+    box-shadow: $box-shadow;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
+justify-content: space-between;
+      
     a.donate-button {
       background: darken($primary-color, 20%);
       &:hover {
@@ -807,12 +806,13 @@ blockquote {
   }
 }
 
-.avatar {
-  max-width: 100px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
+.flex-author {
+    order: 2;
 }
-
+ .avatar {
+    max-width: 100px;
+    border-radius: 50%;
+}
 @include small-breakpoint {
   .note {
     .note-container {
